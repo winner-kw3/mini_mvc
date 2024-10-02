@@ -1,7 +1,7 @@
 # mini MVC
 ## Installation
 * Créez une base de données et importez mini_website.sql.
-* Modifiez db_config.php avec les paramètres de votre base de données.
+* Dupliquer le fichier .env.example en .env et le modifier pour mettre les données de votre base de données.
 
 ## À faire : Nous voulons créer une page articles listant tous les articles de la base de données
 * Vous devez créer ArticleRepository.php et à l'intérieur, ajouter une méthode avec une requête pour récupérer tous les articles.
@@ -13,7 +13,7 @@
 # mini MVC (english)
 ## Installation
 * Create a database and import mini_website.sql
-* Edit db_config.php with your db settings
+* Duplicate the .env.example file into .env and modify it to put your database data.
 
 ## Todo: We want to create a page articles listing all articles from the database
 * You need to create ArticleRepository.php and inside add a method to with a query to get all articles
