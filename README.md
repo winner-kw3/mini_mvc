@@ -8,6 +8,7 @@
 * Vous devez créer ArticleController.php qui appellera le repository et retournera le résultat à la vue.
 * Vous devez créer la vue dans templates/article/list.php.
 
+---
 
 # mini MVC (english)
 ## Installation
