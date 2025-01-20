@@ -16,7 +16,7 @@
 * Duplicate the .env.example file into .env and modify it to put your database data.
 
 ## Todo: We want to create a page articles listing all articles from the database
-* You need to create ArticleRepository.php and inside add a method to with a query to get all articles
+* You need to create ArticleRepository.php and inside add a method with a query to get all articles
 * You need to create ArticleController.php that will call the repository and return the result to the view
 * You need to create the view in templates/article/list.php
 
