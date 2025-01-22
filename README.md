@@ -12,8 +12,13 @@
 * Vous devez créer Article.php (entity) en vous basant sur ce qui a été fait dans User.php
 * Vous devez créer ArticleRepository.php et à l'intérieur, ajouter une méthode avec une requête pour récupérer tous les articles.
 * Vous devez créer ArticleController.php qui appellera le repository et retournera le résultat à la vue.
-* Vous devez créer la vue dans templates/article/list.php.
+* Vous devez créer la vue dans templates/article/list.php qui affiche uniquement le titre de l'article et un lien "Lire plus"
 * Mettre à jour le menu
+* On veut ensuite affiche le détail d'un article (quand on clique sur Lire plus")
+  * Il faudra créer une action show qui récupère un article et le retourne à la vue
+* En dessous du détail d'un article
+  * afficher les commentaires existants
+  * Si l'utilisateur est connecté, lui permettre de commenter
 ---
 
 # mini MVC (english)
@@ -30,6 +35,11 @@
 * You need to create Article.php (entity) following the same structure as in User.php
 * You need to create ArticleRepository.php and inside add a method with a query to get all articles
 * You need to create ArticleController.php that will call the repository and return the result to the view
-* You need to create the view in templates/article/list.php
+* You need to create the view in templates/article/list.php. Display only the title and a Read More link
 * Update the menu
+* We want to display the article details when we click on Read More
+  * For that we need to create an action show in ArticleController that will get the article and pass it to the view
+* Below the article details
+  * Display the comments
+  * If the user is connected, allow him to add a comment
 
