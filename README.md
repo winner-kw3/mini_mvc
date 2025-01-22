@@ -3,7 +3,11 @@
 * Créez une base de données et importez mini_website.sql.
 * Dupliquer le fichier .env.example en .env et le modifier pour mettre les données de votre base de données.
 
-## À faire : Nous voulons créer une page listant tous les articles de la base de données
+## Todo: 
+### On veut afficher une page à propos
+* Créer un nouveau fichier templates/page/about.php avec header, footer and a h1 about
+* Adapter le PageController.php pour gérer cette page
+##  Nous voulons créer une page listant tous les articles de la base de données
 * Vous devez créer Article.php (entity) en vous basant sur ce qui a été fait dans User.php
 * Vous devez créer ArticleRepository.php et à l'intérieur, ajouter une méthode avec une requête pour récupérer tous les articles.
 * Vous devez créer ArticleController.php qui appellera le repository et retournera le résultat à la vue.
@@ -16,7 +20,11 @@
 * Create a database and import mini_website.sql
 * Duplicate the .env.example file into .env and modify it to put your database data.
 
-## Todo: We want to create a page listing all articles from the database
+## Todo: 
+### We want to have a new about page
+* Create a new file in templates/page/about.php with header, footer and a h1 about
+* Adapt the PageController.php to manage this page
+### We want to create a page listing all articles from the database
 * You need to create Article.php (entity) following the same structure as in User.php
 * You need to create ArticleRepository.php and inside add a method with a query to get all articles
 * You need to create ArticleController.php that will call the repository and return the result to the view
