@@ -13,7 +13,7 @@
 * Vous devez créer ArticleRepository.php et à l'intérieur, ajouter une méthode avec une requête pour récupérer tous les articles.
 * Vous devez créer ArticleController.php qui appellera le repository et retournera le résultat à la vue.
 * Vous devez créer la vue dans templates/article/list.php.
-
+* Mettre à jour le menu
 ---
 
 # mini MVC (english)
@@ -31,4 +31,5 @@
 * You need to create ArticleRepository.php and inside add a method with a query to get all articles
 * You need to create ArticleController.php that will call the repository and return the result to the view
 * You need to create the view in templates/article/list.php
+* Update the menu
 
