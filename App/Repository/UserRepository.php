@@ -21,6 +21,17 @@ class UserRepository extends Repository
             return false;
         }
     }
+    public function findAll()
+    {
+        $query = $this->pdo->prepare("SELECT * FROM user");
+        $query->execute();
+        $users = $query->fetchAll($this->pdo::FETCH_ASSOC);
+        $usersObjects = [];
+        foreach($users as $user) {
+            $usersObjects[] = User::createAndHydrate($user);;
+        }
+        return $usersObjects;
+    }
     public function findOneByEmail(string $email)
     {
         $query = $this->pdo->prepare("SELECT * FROM user WHERE email = :email");
