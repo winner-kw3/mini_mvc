@@ -2,6 +2,7 @@
 ## Installation
 * Créez une base de données et importez mini_website.sql.
 * Dupliquer le fichier .env.example en .env et le modifier pour mettre les données de votre base de données.
+* Mettre à jour le menu
 
 ## Todo: 
 ### On veut afficher une page à propos
@@ -24,6 +25,7 @@
 ### We want to have a new about page
 * Create a new file in templates/page/about.php with header, footer and a h1 about
 * Adapt the PageController.php to manage this page
+* Update the menu
 ### We want to create a page listing all articles from the database
 * You need to create Article.php (entity) following the same structure as in User.php
 * You need to create ArticleRepository.php and inside add a method with a query to get all articles
