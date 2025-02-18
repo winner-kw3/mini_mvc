@@ -5,10 +5,10 @@
 * Mettre à jour le menu
 
 ## Todo: 
-### On veut afficher une page à propos
+### Gérer une page à porpos
 * Créer un nouveau fichier templates/page/about.php avec header, footer and a h1 about
 * Adapter le PageController.php pour gérer cette page
-##  Nous voulons créer une page listant tous les articles de la base de données
+##  Gérer une page listant tous les articles (stockés en bdd)
 * Vous devez créer Article.php (entity) en vous basant sur ce qui a été fait dans User.php
 * Vous devez créer ArticleRepository.php et à l'intérieur, ajouter une méthode avec une requête pour récupérer tous les articles.
 * Vous devez créer ArticleController.php en ajoutant une action list qui appellera le repository et retournera le résultat à la vue.
