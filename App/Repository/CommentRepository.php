@@ -9,14 +9,14 @@ class CommentRepository extends Repository
 {
     public function findCommentsByArticleId(int $articleId): array
     {
-        // Préparer la requête pour récupérer tous les commentaires pour un article spécifique
+        
         $stmt = $this->pdo->prepare("SELECT * FROM comment WHERE article_id = ?");
         $stmt->execute([$articleId]);
         
-        // Tableau pour stocker les commentaires
+        
         $comments = [];
 
-        // Parcourir les résultats et créer des objets Comment
+        
         while ($row = $stmt->fetch($this->pdo::FETCH_ASSOC)) {
             $comment = new Comment();
             $comment->setId($row['id'])
