@@ -4,11 +4,11 @@
 * Dupliquer le fichier .env.example en .env et le modifier pour mettre les données de votre base de données.
 * Mettre à jour le menu
 
-## Todo: 
-### On veut afficher une page à propos
+## A faire: 
+### Gérer une page à porpos
 * Créer un nouveau fichier templates/page/about.php avec header, footer and a h1 about
 * Adapter le PageController.php pour gérer cette page
-##  Nous voulons créer une page listant tous les articles de la base de données
+##  Gérer une page listant tous les articles (stockés en bdd)
 * Vous devez créer Article.php (entity) en vous basant sur ce qui a été fait dans User.php
 * Vous devez créer ArticleRepository.php et à l'intérieur, ajouter une méthode avec une requête pour récupérer tous les articles.
 * Vous devez créer ArticleController.php en ajoutant une action list qui appellera le repository et retournera le résultat à la vue.
@@ -17,10 +17,6 @@
 * Mettre à jour le menu
 * On veut ensuite affiche le détail d'un article (quand on clique sur Lire plus")
   * Il faudra créer une action show qui récupère un article et le retourne à la vue
-* En dessous du détail d'un article
-  * afficher les commentaires existants
-  * Si l'utilisateur est connecté, lui permettre de commenter
----
 
 # mini MVC (english)
 ## Installation
@@ -41,7 +37,4 @@
 * Update the menu
 * We want to display the article details when we click on Read More
   * For that we need to create an action show in ArticleController that will get the article and pass it to the view
-* Below the article details
-  * Display the comments
-  * If the user is connected, allow him to add a comment
 
