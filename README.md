@@ -17,10 +17,6 @@
 * Mettre à jour le menu
 * On veut ensuite affiche le détail d'un article (quand on clique sur Lire plus")
   * Il faudra créer une action show qui récupère un article et le retourne à la vue
-* En dessous du détail d'un article
-  * afficher les commentaires existants
-  * Si l'utilisateur est connecté, lui permettre de commenter
----
 
 # mini MVC (english)
 ## Installation
@@ -41,7 +37,4 @@
 * Update the menu
 * We want to display the article details when we click on Read More
   * For that we need to create an action show in ArticleController that will get the article and pass it to the view
-* Below the article details
-  * Display the comments
-  * If the user is connected, allow him to add a comment
 
