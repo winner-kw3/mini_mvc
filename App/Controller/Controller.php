@@ -14,11 +14,6 @@ class Controller
                         $controller = new PageController();
                         $controller->route();
                         break;
-                    case 'book':
-                        //charger controleur book
-                        $controller = new BookController();
-                        $controller->route();
-                        break;
                     case 'auth':
                         //charger controleur auth
                         $controller = new AuthController();
