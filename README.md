@@ -4,7 +4,7 @@
 * Dupliquer le fichier .env.example en .env et le modifier pour mettre les données de votre base de données.
 * Mettre à jour le menu
 
-## Todo: 
+## A faire: 
 ### Gérer une page à porpos
 * Créer un nouveau fichier templates/page/about.php avec header, footer and a h1 about
 * Adapter le PageController.php pour gérer cette page
